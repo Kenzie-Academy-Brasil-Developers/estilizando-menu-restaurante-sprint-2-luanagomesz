@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Oswald');
+body{
+font-family: 'Oswald';
+font-size: 14px;
+}
+header h1{
+    font-family: 'Bungee Inline';
+    font-size: 46px;
+    font-weight: 400;
+}
 
+#menu dt{
+    font-weight: bold;
+    font-size: 16px;
+}
+#menu dt::after{
+    font-weight: bold;
+    color:  black;
+    content: ",";
+}
+#menu h2{
+    text-transform: uppercase;
+}
+
+footer{
+    text-align: right;
+}
+#starters{
+    border: solid black 2px;
+}
+#desserts{
+    border: solid black 2px;
+}
 /* Use the 'Oswald' font family at 14px throughout the body of the document. */
 nav {font-family: sans-serif; font-size: 10px;}
 
